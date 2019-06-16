@@ -4,12 +4,6 @@
 - **조성동(개발환경 구축 및 Class Structure, HttpRequest)**, 최환(Sensor, Circuit)
 - [함께 사용되는 p5.js 프로젝트](https://github.com/sdong001/p5js-weather-media-art) (프로젝트 소개 포함)
 
-
-## 목차
-- [프로젝트 목표](#프로젝트-목표)
-- [개발현황](#개발현황)
-- [회의록](#회의록)
-
 ---
 
 ## 프로젝트 목표
