@@ -1,6 +1,7 @@
 # Totoro's Weather Trip
 - 2019-1 "비주얼 프로그래밍"
 - 개발기간 : 19년 5월 9일 ~ 19년 6월 20일
+- Raspberry Pi 3 B+, MCP3008과 사운드센서, 가변저항 사용
 - **조성동(개발환경 구축 및 Class Structure, HttpRequest)**, 최환(Sensor, Circuit)
 - [함께 사용되는 p5.js 프로젝트](https://github.com/sdong001/p5js-weather-media-art) (프로젝트 소개 포함)
 
