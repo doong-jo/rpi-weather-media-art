@@ -15,6 +15,9 @@ class HttpRequest(object):
         elif identity == Const.REQUEST_RESIST:
             prefix = Const.REQUEST_RESIST_PREFIX
 
-        endPoint = Const.REQUEST_URL + prefix + value
+        endPoint = Const.REQUEST_URL + prefix + str(value)
 
-        requests.post(endPoint, data={})
+        try:
+            requests.post(endPoint, data={}, timeout=0.5)
+        except requests.exceptions.ReadTimeout:
+            pass
